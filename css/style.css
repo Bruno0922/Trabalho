@@ -1,0 +1,416 @@
+
+@font-face {
+    font-family: 'HarryP'; 
+    src: url('/fontes/harryp__-webfont.woff2') format('woff2'),
+         url('/fontes/harryp__-webfont.woff') format('woff');
+    font-weight: normal; 
+    font-style: normal; 
+  }
+
+.header{
+    background-image: url('/1305167.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5); 
+     background-blend-mode: overlay; 
+}
+
+
+
+.header__title{
+    
+    font-size: 100px;
+    font-weight: 400px;
+    padding-top: 2em;    
+}
+
+.header__container .header__title, .header__container .header__subtitle{
+    color: white;
+    font-family: 'HarryP', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.header__subtitle{
+    font-size: 60px;
+    font-weight: 400px;
+}
+
+.header__menu{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 3em;
+    
+    
+}
+
+.menu__link{
+    text-decoration: none;
+    color: #FFC500;
+    font-family: 'HarryP';
+    font-size: 30px;
+}
+
+.menu__link:hover{
+    color: #7F0909;
+}
+
+section .intro__banner{
+    background-color: #FFC500;
+    height: 50vh;
+}
+
+.intro__title{
+    color: white;
+    font-weight: 400;
+    font-family: 'HarryP';
+    padding-top: 1em;
+    font-size: 50px;
+    padding-left: 2em;
+}
+
+.intro__text{
+    color: white;
+    font-weight: 400;
+    font-family: 'HarryP';
+    font-size: 40px;
+    padding-left: 5em;
+    padding-top: 1em;
+    margin-bottom: 2em;
+}
+
+section .intro__banner a{
+    color: #FFC500;
+    text-decoration: none;
+    border: 2px solid black;
+    margin-left: 2em;
+    padding: 12px;
+    background-color: #7F0909;
+
+}
+
+section .intro__banner a:hover{
+    color: #7F0909;
+    background-color: #FFC500;
+   
+}
+
+#about .section__content{
+    background-color: #FFC500;
+}
+
+.section__title {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 50px;
+    font-weight: 400;
+    font-family: 'HarryP';
+}
+
+.section__text{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 50px;
+    font-weight: 400;
+    font-family: 'HarryP';
+    margin-bottom: 1em;
+}
+
+.about__grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+
+.about__item{
+    gap: 10px;
+    flex-basis: 200px;
+    border: 2px solid black;
+    background-color: #000221;
+    color: white;
+    margin-bottom: 3em;
+
+}
+
+.about__subtitle{
+    text-align: center;
+    font-size: 40px;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-family: 'HarryP';
+}
+
+.about__description{
+    padding: 2em;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#gallery{
+    background-color: #FFC500;
+    height: 100vh;
+}
+.section__title{
+    display: flex;
+    justify-content: center;
+    font-size: 80px;
+    color: #7F0909;
+    font-family: 'HarryP';
+    font-weight: 400;
+    padding-bottom: 1em;
+}
+
+.gallery__grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.gallery__item{
+    gap: 10px;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: #000221;
+    color: white;
+    margin-bottom: 3em;
+}
+
+.gallery__img{
+    padding: 1em;
+    border-radius: 60px;
+}
+
+.gallery__caption{
+    display: flex;
+    justify-content: center;
+    color: #FFC500;
+    font-family: 'HarryP';
+    font-size: 40px;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.btn-more{
+    background-color: #7F0909;
+    margin: auto;
+    padding: 5px;
+    color: white;
+    border-style: none;
+    border: 2px solid #FFC500;  
+    font-family: 'HarryP';  
+    font-size: 30px;
+}
+
+.btn-more:hover{
+    background-color: #FFC500;
+    border:2px solid #7F0909;
+}
+
+.gallery__item button{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2em;
+}
+
+#services .section__content{
+    background-color: #000221;
+    padding-bottom: 2em;
+}
+
+.section__content h2{
+    padding-top: 1em;
+}
+.services__list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.service__item{
+    gap: 20px;
+    border: 2px solid black;
+    background-color: #7F0909;
+    margin: 1em;
+    width: 250px;
+}
+
+.service__item:hover{
+    transform: scale(1.1);
+}
+
+#services .section__content h2{
+    color: #FFC500;
+}
+
+.service__title{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    color: #FFC500;
+    font-family: 'HarryP';
+    font-size: 30px;
+
+}
+
+.service__description{
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+#news{
+    background-color: #7f09097a
+}
+#news h2{
+    padding-top: 1em;
+    
+}
+
+.news__grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+   
+}
+
+.news__item{
+    display: flex;
+    justify-content: center;
+    border: 2px solid #000221;
+    border-radius: 2em;
+    background-color: #000221;
+    width: 50em;
+    margin-bottom: 2em;
+    
+}
+
+.news__item:hover{
+    background-color: #FFC500;
+    transform: scale(1.1);
+
+}
+
+article img{
+   padding: 2em;
+}
+
+article .news__title, article p{
+    color: white;
+    text-align: center;
+}
+
+article .news__title{
+    color: white;
+    text-align: center;
+    padding: 1em;
+    font-family: 'HarryP';
+    font-size: 30px;
+}
+
+article button{
+    display: flex;
+    justify-content: center;
+}
+.btn-more{
+    margin-top: 1em;
+}
+#contact .section__content{
+    background-color: #FFC500;   
+    
+}
+.contact__form{
+    border: 2px solid black;
+    width: 30em;
+    text-align: center;
+    background-color: #000221;
+    padding-top: 2em;
+    
+}
+
+
+.form__label{
+    color: #FFC500;
+    font-family: 'HarryP';
+    font-size: 64px;
+    margin-top: 2em;
+   
+    
+}
+input {
+    border: none;
+    background-color: #7F0909;
+    height: 42px;
+    margin-left: 2em;
+    border-radius: 20px;
+    font-size: large;
+    color: white;
+   
+}
+
+textarea{
+    border: none;
+    background-color: #7F0909;
+    height: 42px;
+    margin-left: 2em;
+    border-radius: 20px;
+    font-size: large;
+    color: white;
+    margin-top: 1em;
+}
+
+.form__button{
+    background-color: #7F0909;
+    margin-top: 2em;
+    color: white;
+    border-style: none;
+    border: 2px solid #FFC500;
+    font-family: 'HarryP';
+    font-size: 30px;
+    width: 80px;
+    height: 60px;
+    margin-bottom: 2em;
+}
+
+.form__button:hover{
+    background-color: #FFC500;
+}
+
+footer{
+    background-color: black;
+}
+
+.footer__content{
+    text-align: center;
+}
+
+.footer__text{
+    color: white;
+    font-family: 'HarryP';
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-size: 60px;
+}
+
+.footer__social{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding-bottom: 2em;
+    
+}
+
+.social__link{
+    text-decoration: none;
+    color: white;
+    font-family: 'HarryP';
+    font-size: 30px;
+}
+
+.social__link:hover{
+    color: #FFC500;
+}
